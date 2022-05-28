@@ -1,0 +1,89 @@
+.rightbar
+{
+    flex:3.5;
+    margin-left: 20px;
+    position: sticky;
+}
+
+.rightbarwrapper
+{
+    padding: 20px 20px 0 0;
+}
+.birthdaycontainer
+{
+    display: flex;
+    align-items: center;
+}
+.birthdayimg
+{ 
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit:cover;
+}
+
+.birthdaytext
+{
+    font-weight: 300;
+    font-size: 15px;
+}
+.rightbarad
+{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+    /* width: 30px;
+    height: 30px; */
+}
+.rightbartit
+{
+    margin-bottom: 20px
+}
+.rightbarfriendlist{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+.rightbartitile
+{
+    font-style: 18px;
+    font-weight: 500;
+    margin: 10px;
+}
+.rightbarinfo
+{
+    margin-bottom: 30px;
+}
+.righbarinfoitem
+{
+    margin-bottom: 10px;
+}
+.rightbarinfokey
+{
+    font-weight: 500;
+    margin-right: 14px;
+    color : #555
+}
+.rightbarinfoValue
+{
+    font-weight: 300;
+}
+.rightbarfollowings
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightbarfollowing
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+.rightbarfollowingimg
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
